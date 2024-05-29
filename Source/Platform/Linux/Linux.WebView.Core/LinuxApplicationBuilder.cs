@@ -1,4 +1,6 @@
-﻿namespace Linux.WebView.Core;
+﻿using Linux.WebView.Core.Core;
+
+namespace Linux.WebView.Core;
 
 public class LinuxApplicationBuilder
 {

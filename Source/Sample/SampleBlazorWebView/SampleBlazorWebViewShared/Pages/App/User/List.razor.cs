@@ -1,4 +1,6 @@
-﻿namespace SampleBlazorWebViewShared.Pages.App.User;
+﻿using SampleBlazorWebViewShared.Pages.App.User.ViewModel;
+
+namespace SampleBlazorWebViewShared.Pages.App.User;
 
 public partial class List
 {

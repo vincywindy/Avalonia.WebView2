@@ -107,9 +107,9 @@ WebView for avalonia
 
    > 在 Linux 上使用 Webkit Webview（如果没有，请安装 [sudo apt-get libwebkit2gtk-4-37]）
 
-   > 在 Android 上使用 Android.Webkit.WebView（这是在 Microsoft-Android 中的 [net5.0-Android; net6.0-Android; net7.0-Android]）
+   > 在 Android 上使用 Android.Webkit.WebView（这是在 Microsoft-Android 中的 [net5.0-Android; net6.0-Android; net8.0-Android]）
 
-   > 在 iOS 上使用 WKWebView[UIKit]（这是在 Microsoft-iOS 中的 [net5.0-ios; net6.0-ios; net7.0-ios]）
+   > 在 iOS 上使用 WKWebView[UIKit]（这是在 Microsoft-iOS 中的 [net5.0-ios; net6.0-ios; net8.0-ios]）
 
 | 平台                      | 技术                    |
 |:-------------------------|:-----------------------|

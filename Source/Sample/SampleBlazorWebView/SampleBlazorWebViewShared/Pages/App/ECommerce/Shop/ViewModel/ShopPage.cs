@@ -1,4 +1,4 @@
-﻿namespace SampleBlazorWebViewShared.Pages.App.ECommerce.Shop;
+﻿namespace SampleBlazorWebViewShared.Pages.App.ECommerce.Shop.ViewModel;
 
 public class ShopPage
 {

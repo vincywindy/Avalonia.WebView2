@@ -1,4 +1,6 @@
-﻿namespace Avalonia.WebView.iOS;
+﻿using AvaloniaWebView.Shared.Interfaces;
+
+namespace Avalonia.WebView.iOS;
 
 internal class ViewHandlerProvider : IViewHandlerProvider
 {

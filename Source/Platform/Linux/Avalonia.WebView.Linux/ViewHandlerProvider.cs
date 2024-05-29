@@ -1,4 +1,5 @@
 ﻿using Avalonia.Controls.ApplicationLifetimes;
+using AvaloniaWebView.Shared.Interfaces;
 using Linux.WebView.Core;
 
 namespace Avalonia.WebView.Linux;

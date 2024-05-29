@@ -1,6 +1,7 @@
 ﻿using Avalonia.Controls;
 using Avalonia.Controls.Platform;
 using Avalonia.Platform;
+using AvaloniaWebView.Shared.Interfaces;
 using System.Runtime.InteropServices;
 using WebViewCore;
 

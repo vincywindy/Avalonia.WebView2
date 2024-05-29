@@ -1,6 +1,6 @@
 ﻿using Microsoft.Web.WebView2.Core;
 
-namespace Microsoft.AspNetCore.Components.WebView;
+namespace Microsoft.AspNetCore.Components.WebView.Wpf;
 public class BlazorWebViewInitializingEventArgs : EventArgs
 {
     public string? BrowserExecutableFolder { get; set; }

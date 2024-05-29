@@ -1,6 +1,4 @@
-﻿using SampleBlazorWebViewShared.Global.Nav.Model;
-
-namespace SampleBlazorWebViewShared.Global;
+﻿namespace SampleBlazorWebViewShared.Global.Nav;
 
 public class NavHelper
 {

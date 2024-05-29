@@ -1,4 +1,6 @@
-﻿namespace SampleBlazorWebViewShared.Pages.Dashboard;
+﻿using SampleBlazorWebViewShared.Shared;
+
+namespace SampleBlazorWebViewShared.Pages.Dashboard;
 
 public partial class Analytics : ProComponentBase
 {

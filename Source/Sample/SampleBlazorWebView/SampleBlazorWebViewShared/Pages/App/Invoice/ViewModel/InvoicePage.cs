@@ -1,4 +1,4 @@
-﻿namespace SampleBlazorWebViewShared.Pages.App.Invoice;
+﻿namespace SampleBlazorWebViewShared.Pages.App.Invoice.ViewModel;
 
 public class InvoicePage
 {

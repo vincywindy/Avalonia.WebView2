@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace Microsoft.AspNetCore.Components.WebView;
+namespace Microsoft.AspNetCore.Components.WebView.Wpf;
 internal class AutoCloseOnReadCompleteStream : Stream
 {
     private readonly Stream _baseStream;

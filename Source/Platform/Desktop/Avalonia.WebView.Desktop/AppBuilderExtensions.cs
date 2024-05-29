@@ -1,4 +1,7 @@
-﻿using System.Runtime.InteropServices;
+﻿using Avalonia.WebView.Linux;
+using Avalonia.WebView.MacCatalyst;
+using Avalonia.WebView.Windows;
+using System.Runtime.InteropServices;
 
 namespace Avalonia.WebView.Desktop;
 

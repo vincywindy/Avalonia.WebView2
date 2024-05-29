@@ -1,4 +1,4 @@
-﻿namespace SampleBlazorWebViewShared;
+﻿namespace SampleBlazorWebViewShared.Shared;
 
 public abstract class ProComponentBase : ComponentBase
 {

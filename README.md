@@ -107,9 +107,9 @@ English| [简体中文](./README.zh-CN.md)
 
    > use Webkit Webview for Linux (if not please install [sudo apt-get libwebkit2gtk-4-37])
 
-   > use Android.Webkit.WebView  for Android (this is in Microsoft-Android [net5.0-Android; net6.0-Android; net7.0-Android])
+   > use Android.Webkit.WebView  for Android (this is in Microsoft-Android [net5.0-Android; net6.0-Android; net8.0-Android])
 
-   > use WKWebView[UIKit] for iOS (this is in Microsoft-iOS [net5.0-ios; net6.0-ios; net7.0-ios])
+   > use WKWebView[UIKit] for iOS (this is in Microsoft-iOS [net5.0-ios; net6.0-ios; net8.0-ios])
 
 | Platform                 | Technologies           |
 |:-------------------------|:-----------------------|

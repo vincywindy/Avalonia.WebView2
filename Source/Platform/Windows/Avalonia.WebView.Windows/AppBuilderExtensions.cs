@@ -1,6 +1,6 @@
-﻿using Avalonia.WebView.Windows;
+﻿using AvaloniaWebView.Shared.Interfaces;
 
-namespace Avalonia.WebView.Desktop;
+namespace Avalonia.WebView.Windows;
 public static class AppBuilderExtensions
 {
     public static AppBuilder UseWindowWebView(this AppBuilder appBuilder)

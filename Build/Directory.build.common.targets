@@ -2,24 +2,24 @@
 
 <Project>
 	<!-- Define NETSTANDARD2_1_OR_GREATER for .NET Standard 2.1 targets and above -->
-	<PropertyGroup Condition="'$(TargetFramework)' == 'net6.0' OR '$(TargetFramework)' == 'net6.0' OR '$(TargetFramework)' == 'net7.0'">
+	<PropertyGroup Condition="'$(TargetFramework)' == 'net6.0' OR '$(TargetFramework)' == 'net8.0'">
 		<DefineConstants>NETSTANDARD2_1_OR_GREATER</DefineConstants>
 	</PropertyGroup>
 
 	<!-- Configure trimming for projects on .NET 6 and above -->
-	<PropertyGroup Condition="'$(TargetFramework)' == 'net6.0' OR '$(TargetFramework)' == 'net7.0'">
+	<PropertyGroup Condition="'$(TargetFramework)' == 'net6.0' OR '$(TargetFramework)' == 'net8.0'">
 		<EnableTrimAnalyzer>true</EnableTrimAnalyzer>
 		<IsTrimmable>true</IsTrimmable>
 	</PropertyGroup>
 
-	<ItemGroup  Condition="'$(TargetFramework)' == 'netstandard2.0' OR '$(TargetFramework)' == 'net6.0'">
+	<ItemGroup  Condition="'$(TargetFramework)' == 'netstandard2.0' OR '$(TargetFramework)' == 'net8.0'">
 		<PackageReference Include="PolySharp">
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>build; analyzers</IncludeAssets>
 		</PackageReference>
 	</ItemGroup>
 
-	<PropertyGroup  Condition="'$(TargetFramework)' == 'netstandard2.0' OR  '$(TargetFramework)' == 'net6.0'">
+	<PropertyGroup  Condition="'$(TargetFramework)' == 'netstandard2.0' OR  '$(TargetFramework)' == 'net6.0' OR  '$(TargetFramework)' == 'net8.0'">
 		<PolySharpIncludeGeneratedTypes>
 			System.Diagnostics.CodeAnalysis.DoesNotReturnAttribute;
 			System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute;

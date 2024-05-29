@@ -1,6 +1,6 @@
-﻿using Avalonia.WebView.MacCatalyst;
+﻿using AvaloniaWebView.Shared.Interfaces;
 
-namespace Avalonia.WebView.Desktop;
+namespace Avalonia.WebView.MacCatalyst;
 public static class AppBuilderExtensions
 {
     public static AppBuilder UseMacCatalystWebView(this AppBuilder builder)

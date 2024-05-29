@@ -3,6 +3,7 @@ using System.Runtime.InteropServices;
 using CoreServices;
 using Foundation;
 using ObjCRuntime;
+using Xamarin.Utiles;
 
 namespace CoreFoundation;
 

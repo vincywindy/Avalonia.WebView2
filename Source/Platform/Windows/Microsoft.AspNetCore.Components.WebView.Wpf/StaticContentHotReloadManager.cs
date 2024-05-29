@@ -6,7 +6,7 @@ using System.Reflection.Metadata;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace Microsoft.AspNetCore.Components.WebView;
+namespace Microsoft.AspNetCore.Components.WebView.Wpf;
 internal static class StaticContentHotReloadManager
 {
     private delegate void ContentUpdatedHandler(string assemblyName, string relativePath);

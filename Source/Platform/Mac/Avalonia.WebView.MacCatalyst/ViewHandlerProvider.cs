@@ -1,4 +1,6 @@
-﻿namespace Avalonia.WebView.MacCatalyst;
+﻿using AvaloniaWebView.Shared.Interfaces;
+
+namespace Avalonia.WebView.MacCatalyst;
 
 internal class ViewHandlerProvider : IViewHandlerProvider
 {

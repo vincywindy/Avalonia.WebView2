@@ -1,5 +1,6 @@
 ﻿using Avalonia;
 using AvaloniaWebView.Shared.Core;
+using AvaloniaWebView.Shared.Interfaces;
 
 namespace AvaloniaWebView.Shared;
 public static class AppBuilderExtensions

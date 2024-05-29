@@ -1,4 +1,6 @@
-﻿namespace Avalonia.WebView.Windows;
+﻿using AvaloniaWebView.Shared.Interfaces;
+
+namespace Avalonia.WebView.Windows;
 internal class ViewHandlerProvider : IViewHandlerProvider
 {
     IViewHandler IViewHandlerProvider.CreatePlatformWebViewHandler(IVirtualWebView virtualView, IVirtualWebViewControlCallBack virtualViewCallBack, IVirtualBlazorWebViewProvider? provider, Action<WebViewCreationProperties>? configDelegate)

@@ -1,4 +1,6 @@
-﻿namespace Avalonia.WebView.Android;
+﻿using AvaloniaWebView.Shared.Interfaces;
+
+namespace Avalonia.WebView.Android;
 
 internal class ViewHandlerProvider : IViewHandlerProvider
 {

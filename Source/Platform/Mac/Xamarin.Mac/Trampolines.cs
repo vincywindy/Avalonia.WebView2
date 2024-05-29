@@ -7,6 +7,7 @@ using Foundation;
 using JavaScriptCore;
 using ObjCRuntime;
 using WebKit;
+using Xamarin.Utiles;
 
 internal static class Trampolines
 {

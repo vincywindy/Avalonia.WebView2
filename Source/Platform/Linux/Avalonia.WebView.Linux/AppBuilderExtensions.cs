@@ -1,7 +1,7 @@
-﻿using Avalonia.WebView.Linux;
+﻿using AvaloniaWebView.Shared.Interfaces;
 using Linux.WebView.Core;
 
-namespace Avalonia.WebView.Desktop;
+namespace Avalonia.WebView.Linux;
 
 public static class AppBuilderExtensions
 {

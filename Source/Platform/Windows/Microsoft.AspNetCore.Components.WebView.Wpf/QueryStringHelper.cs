@@ -1,4 +1,4 @@
-﻿namespace Microsoft.AspNetCore.Components.WebView;
+﻿namespace Microsoft.AspNetCore.Components.WebView.Wpf;
 internal static class QueryStringHelper
 {
     public static string RemovePossibleQueryString(string? url)

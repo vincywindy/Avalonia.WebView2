@@ -7,6 +7,7 @@ using SampleBlazorWebView.ViewModels;
 using SampleBlazorWebView.Views;
 using SampleBlazorWebViewShared;
 using SampleBlazorWebViewShared.Data;
+using SampleBlazorWebViewShared.Global;
 
 namespace SampleBlazorWebView;
 public partial class App : Application

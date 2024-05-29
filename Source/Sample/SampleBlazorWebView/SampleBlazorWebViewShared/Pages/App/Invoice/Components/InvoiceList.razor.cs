@@ -1,4 +1,6 @@
-﻿namespace SampleBlazorWebViewShared.Pages.App.Invoice.Components;
+﻿using SampleBlazorWebViewShared.Pages.App.Invoice.ViewModel;
+
+namespace SampleBlazorWebViewShared.Pages.App.Invoice.Components;
 
 public partial class InvoiceList
 {

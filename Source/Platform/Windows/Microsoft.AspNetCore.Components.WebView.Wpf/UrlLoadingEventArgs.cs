@@ -1,4 +1,4 @@
-﻿namespace Microsoft.AspNetCore.Components.WebView;
+﻿namespace Microsoft.AspNetCore.Components.WebView.Wpf;
 public class UrlLoadingEventArgs : EventArgs
 {
     internal static UrlLoadingEventArgs CreateWithDefaultLoadingStrategy(Uri urlToLoad, Uri appOriginUri)

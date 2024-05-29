@@ -1,4 +1,6 @@
-﻿namespace AvaloniaWebView;
+﻿using AvaloniaWebView.Shared.Interfaces;
+
+namespace AvaloniaWebView;
 
 public sealed partial class WebView : Control, IVirtualWebView<WebView>, IEmptyView, IWebViewEventHandler, IVirtualWebViewControlCallBack, IWebViewControl
 {

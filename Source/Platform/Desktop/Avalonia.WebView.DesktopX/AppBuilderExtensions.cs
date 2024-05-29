@@ -1,4 +1,4 @@
-﻿using Avalonia.WebView.Desktop;
+﻿using Avalonia.WebView.Windows;
 
 namespace Avalonia.WebView.DesktopX;
 public static class AppBuilderExtensions

@@ -1,4 +1,6 @@
-﻿namespace Avalonia.WebView.Mac;
+﻿using AvaloniaWebView.Shared.Interfaces;
+
+namespace Avalonia.WebView.Mac;
 
 public static class AppBuilderExtensions
 {

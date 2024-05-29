@@ -1,4 +1,6 @@
-﻿namespace Avalonia.WebView.Android;
+﻿using AvaloniaWebView.Shared.Interfaces;
+
+namespace Avalonia.WebView.Android;
 
 public static class AppBuilderExtensions
 {

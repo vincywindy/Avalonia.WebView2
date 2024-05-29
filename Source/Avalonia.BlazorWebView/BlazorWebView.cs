@@ -1,4 +1,6 @@
-﻿namespace AvaloniaBlazorWebView;
+﻿using AvaloniaWebView.Shared.Interfaces;
+
+namespace AvaloniaBlazorWebView;
 
 public sealed partial class BlazorWebView : Control, IVirtualWebView<BlazorWebView>, IWebViewEventHandler, IVirtualWebViewControlCallBack, IWebViewControl, IAsyncDisposable
 {

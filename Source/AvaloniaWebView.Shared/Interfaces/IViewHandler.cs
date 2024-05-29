@@ -1,7 +1,7 @@
 ﻿using Avalonia.Controls;
 using WebViewCore;
 
-namespace AvaloniaWebView.Shared;
+namespace AvaloniaWebView.Shared.Interfaces;
 
 public interface IViewHandler
 {

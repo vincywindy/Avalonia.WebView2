@@ -1,4 +1,6 @@
-﻿namespace SampleBlazorWebViewShared.Pages.App.Invoice;
+﻿using SampleBlazorWebViewShared.Shared;
+
+namespace SampleBlazorWebViewShared.Pages.App.Invoice;
 
 public partial class Add : ProComponentBase
 {

@@ -1,7 +1,7 @@
-﻿using SampleBlazorWebViewShared.Global.Config;
-using SampleBlazorWebViewShared.Global.Nav.Model;
+﻿using Microsoft.Extensions.DependencyInjection;
+using SampleBlazorWebViewShared.Global.Nav;
 
-namespace Microsoft.Extensions.DependencyInjection;
+namespace SampleBlazorWebViewShared.Global;
 
 public static class ServiceCollectionExtensions
 {

@@ -396,7 +396,7 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
-/Binary/net7.0
+/Binary/net8.0
 /Binary
 /.idea/.idea.Avalonia.WebView/.idea/indexLayout.xml
 /.idea

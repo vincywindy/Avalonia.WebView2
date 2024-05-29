@@ -1,4 +1,4 @@
-﻿namespace SampleBlazorWebViewShared.Pages.App.User;
+﻿namespace SampleBlazorWebViewShared.Pages.App.User.ViewModel;
 
 public class UserPage
 {

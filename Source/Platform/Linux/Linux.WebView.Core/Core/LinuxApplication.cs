@@ -1,4 +1,4 @@
-﻿namespace Linux.WebView.Core;
+﻿namespace Linux.WebView.Core.Core;
 
 internal class LinuxApplication : ILinuxApplication
 {

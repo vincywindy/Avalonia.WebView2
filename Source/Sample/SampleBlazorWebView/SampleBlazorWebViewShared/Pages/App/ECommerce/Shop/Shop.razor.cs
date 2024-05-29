@@ -1,4 +1,7 @@
-﻿namespace SampleBlazorWebViewShared.Pages.App.ECommerce.Shop;
+﻿using SampleBlazorWebViewShared.Pages.App.ECommerce.Shop.ViewModel;
+using SampleBlazorWebViewShared.Shared;
+
+namespace SampleBlazorWebViewShared.Pages.App.ECommerce.Shop;
 
 public partial class Shop : ProComponentBase
 {
