@@ -20,14 +20,4 @@ public interface IWebViewControl
     bool PostWebMessageAsString(string webMessageAsString, Uri? baseUri);
 
     bool OpenDevToolsWindow();
-
-
-    #region Cookies
-
-    Task AddCookie(AvaloniaWebViewCookie cookie);
-    Task<List<AvaloniaWebViewCookie>?> GetCookies(string url);
-    Task RemoveCookie(AvaloniaWebViewCookie cookie);
-    Task ClearCookies();
-
-    #endregion
 }

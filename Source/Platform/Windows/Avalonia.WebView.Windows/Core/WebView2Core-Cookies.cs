@@ -1,6 +1,6 @@
 ﻿namespace Avalonia.WebView.Windows.Core;
 
-public partial class WebView2Core : IPlatformWebView<WebView2Core>
+public partial class WebView2Core : IPlatformWebView<WebView2Core>, IWebViewCookies
 {
 
 

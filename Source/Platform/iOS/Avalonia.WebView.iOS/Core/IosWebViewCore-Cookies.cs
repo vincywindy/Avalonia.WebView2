@@ -2,7 +2,7 @@
 
 namespace Avalonia.WebView.iOS.Core;
 
-public partial class IosWebViewCore: IPlatformWebView<IosWebViewCore>
+public partial class IosWebViewCore: IPlatformWebView<IosWebViewCore>, IWebViewCookies
 {
     public Task AddCookie(AvaloniaWebViewCookie cookie)
     {

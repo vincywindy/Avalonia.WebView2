@@ -4,6 +4,7 @@ namespace Avalonia.WebView.Linux.Core;
 
 public partial class LinuxWebViewCore : IPlatformWebView<LinuxWebViewCore>
 {
+#if FALSE
     public Task AddCookie(AvaloniaWebViewCookie cookie)
     {
         throw new NotImplementedException();
@@ -27,4 +28,5 @@ public partial class LinuxWebViewCore : IPlatformWebView<LinuxWebViewCore>
         WebView.Context.CookieManager.DeleteAllCookies();
         return Task.CompletedTask;
     }
+#endif
 }

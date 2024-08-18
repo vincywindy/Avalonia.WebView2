@@ -2,6 +2,7 @@
 
 public partial class AndroidWebViewCore : IPlatformWebView<AndroidWebViewCore>
 {
+#if FALSE
     public Task AddCookie(AvaloniaWebViewCookie cookie)
     {
         throw new NotImplementedException();
@@ -21,5 +22,6 @@ public partial class AndroidWebViewCore : IPlatformWebView<AndroidWebViewCore>
     {
         throw new NotImplementedException();
     }
+#endif
 }
 
