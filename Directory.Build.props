@@ -31,7 +31,7 @@
 		<When Condition="'$(Configuration)' == 'Debug'">
 			<PropertyGroup>
 				<DebugSymbols>true</DebugSymbols>
-				<DebugType>full</DebugType>
+				<DebugType>embedded</DebugType>
 				<Optimize>false</Optimize>
 				<DefineConstants>DEBUG;TRACE</DefineConstants>
 			</PropertyGroup>
