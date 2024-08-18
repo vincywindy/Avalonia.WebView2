@@ -21,18 +21,7 @@ public partial class WebView2Core : IPlatformWebView<WebView2Core>
         
         var cookies = await _coreWebView2Controller.CoreWebView2.CookieManager.GetCookiesAsync(url);
         
-        return cookies.Select(c => new AvaloniaWebViewCookie
-        {
-            Name = c.Name,
-            Value = c.Value,
-            Domain = c.Domain,
-            Path = c.Path,
-            //Expires = c.Expires,
-            //IsSecure = c.IsSecure,
-            //IsHttpOnly = c.IsHttpOnly,
-            //SameSite = c.SameSite,
-            //IsSession = c.IsSession
-        }).ToList();
+        return cookies.Select(c => new AvaloniaWebViewCookie(name: c.Name, value: c.Value, domain: c.Domain, path: c.Path)).ToList();
     }
 
     public async Task RemoveCookie(AvaloniaWebViewCookie cookie)
