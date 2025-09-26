@@ -4,7 +4,10 @@
 		<TargetFrameworks>netstandard2.0</TargetFrameworks>
 		<OutputPath>$(RepositoryDirectory)_webview\</OutputPath>
 	</PropertyGroup>
-
+	<PropertyGroup>
+		<PackageId>Lulu.WebView.Avalonia</PackageId>
+		<Title>WebView.Avalonia</Title>
+	</PropertyGroup>
 	<Import Project="$(BuildToolsDirectory)Directory.Packages.targets" />
 
 	<PropertyGroup>

@@ -7,7 +7,7 @@
 	<Import Project="$(BuildToolsDirectory)Directory.Packages.targets" />
 	
 	<PropertyGroup>
-		<PackageId>WebView.Avalonia.Android</PackageId>
+		<PackageId>Lulu.WebView.Avalonia.Android</PackageId>
 		<Title>WebView.Avalonia.Android</Title>
 	</PropertyGroup>
 
